@@ -6,3 +6,5 @@
 - Font styling: Check on the wrapping and layout of the text
 - Gallery page: Create a gallery page that displays all the images in the `public/images` possibly a carousel. Redirecting to Instagram for now.
 - Add a grid layout: Create a grid layout after the hero landing page. Possibly a 3x3 grid with images and text overlay depicting services offered and/or products sold.
+- Responsive design: Make the website responsive for mobile and tablet devices either using grid and media query.
+- Create footer: Add a footer with social media links , location, etc
