@@ -11,6 +11,7 @@ Welcome to my portfolio page. This is a WIP, simple web page that showcases my w
 - Create Footer section
 - Set up gallery page and/or carousel
 - Setup for responsive design
+- Create SVG search function
 
 ## Projects
 

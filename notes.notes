@@ -2,9 +2,10 @@
 
 - Fix image quality: The images in the `public/images` folder are low quality or being processed in low quality? Replace them with higher quality images once images have been found or fix the processing output.
 - Fix slider image wrapping: The images in the slider are not wrapping correctly. The slider should loop back to the first image after the last image.
-- Create contact and about pages: Create a contact page and an about page. The contact page should have a form with fields for name, email, and message. The about page should have information about the company.
+- Create contact and about pages: Create a contact page and an about page. The contact page should have a form with fields for name, email, and message. The about page should have information about the company. Currently set to default send email to `
 - Font styling: Check on the wrapping and layout of the text
 - Gallery page: Create a gallery page that displays all the images in the `public/images` possibly a carousel. Redirecting to Instagram for now.
 - Add a grid layout: Create a grid layout after the hero landing page. Possibly a 3x3 grid with images and text overlay depicting services offered and/or products sold.
 - Responsive design: Make the website responsive for mobile and tablet devices either using grid and media query.
 - Create footer: Add a footer with social media links , location, etc
+- Setup search functionality: Add a search functionality to the website to search for products or services.
