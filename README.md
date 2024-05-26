@@ -1,6 +1,6 @@
 # My Portfolio
 
-Welcome to my portfolio page. This is a simple web page that showcases my work and skills using simple HTML, CSS and vanila Javascript. Feel free to explore my other projects and/or contact me for any questions.
+Welcome to my portfolio page. This is a simple web page that showcases my work and skills using pure HTML, CSS and vanila Javascript. Feel free to explore my other projects and/or contact me for any questions.
 
 ## Projects
 
