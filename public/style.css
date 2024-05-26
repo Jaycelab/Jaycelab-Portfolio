@@ -76,7 +76,7 @@ a:active {
 .slider .list .item .content {
   position: absolute;
   left: 10%;
-  top: 35%;
+  top: 28%;
   width: 500px;
 
   z-index: 1;
