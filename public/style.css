@@ -148,9 +148,11 @@ a:active {
   overflow: auto;
   justify-content: center;
 }
+
 .thumbnail::-webkit-scrollbar {
   width: 0;
 }
+
 .thumbnail .item {
   width: 150px;
   height: 220px;
@@ -158,28 +160,41 @@ a:active {
   transition: 0.5s;
   flex-shrink: 0;
 }
+
 .thumbnail .item img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   border-radius: 10px;
 }
+
 .thumbnail .item.active {
   filter: brightness(1.1);
 }
+
 .thumbnail .item .content {
   position: absolute;
   inset: auto 10px 10px 10px;
 }
+
 @media screen and (max-width: 678px) {
   .thumbnail {
     justify-content: start;
+    height: 200px; /* Reduce height for smaller screens */
+    padding: 0 20px; /* Reduce padding for smaller screens */
   }
-  .slider .list .item .content h2 {
-    font-size: 60px;
+
+  .thumbnail .item {
+    width: 100px; /* Reduce width for smaller screens */
+    height: 170px; /* Reduce height for smaller screens */
   }
-  .arrows {
-    top: 10%;
+
+  .thumbnail .item img {
+    border-radius: 5px; /* Reduce border radius for smaller screens */
+  }
+
+  .thumbnail .item .content {
+    inset: auto 5px 5px 5px; /* Reduce padding for smaller screens */
   }
 }
 
