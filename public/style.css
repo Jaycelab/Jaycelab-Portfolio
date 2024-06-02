@@ -177,6 +177,7 @@ a:active {
   inset: auto 10px 10px 10px;
 }
 
+/*Responsive Section*/
 @media screen and (max-width: 678px) {
   .thumbnail {
     justify-content: start;
@@ -195,6 +196,18 @@ a:active {
 
   .thumbnail .item .content {
     inset: auto 5px 5px 5px; /* Reduce padding for smaller screens */
+  }
+
+  header .menu {
+    display: none;
+  }
+
+  .logo {
+    padding-left: 250px;
+  }
+
+  .search {
+    padding-left: 500px;
   }
 }
 
